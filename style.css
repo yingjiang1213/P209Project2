@@ -1,0 +1,39 @@
+.container {
+    position: fixed;
+    width: 50%;
+  }
+#startBG{
+   position: relative;
+   width: 1000px;
+   height: 1000px;
+}
+.container .StartButton{
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: lightsalmon;
+    color: white;
+    font-size: 30px;
+    padding: 24px 36px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.container .StartButton:hover {
+    background-color: lightcoral;
+  }
+
+#timer{
+    font-size:30px;
+    color: rgb(135, 167, 22);
+    padding: 20px;
+    margin: auto;
+   
+}
+
+body{
+    background-color: rgb(245, 243, 151);
+}
