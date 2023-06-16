@@ -11,7 +11,7 @@
     margin: 0;
     position: absolute;
     top: 500px;
-    left: 500px;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: lightsalmon;
@@ -25,6 +25,14 @@
 .container .StartButton:hover {
     background-color: lightcoral;
   }
+.container .instruction{
+  position: absolute;
+  top:0%;
+  left:50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #timer{
     font-size:30px;
@@ -32,6 +40,10 @@
     padding: 20px;
     margin: auto;
    
+}
+
+h1{
+  color: lightsalmon;
 }
 
 body{
