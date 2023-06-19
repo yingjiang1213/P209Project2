@@ -226,6 +226,7 @@ var update = function (modifier) {
         soundEfx.play();
         soundEfx.addEventListener("ended",function(){
             alert("Game Over!");
+            location.reload();
         });
         gameover=true;
     }
@@ -239,6 +240,7 @@ var update = function (modifier) {
         soundEfx.play();
         soundEfx.addEventListener("ended",function(){
             alert("Game Over!");
+            location.reload();
         });
         gameover=true;
     }
@@ -252,6 +254,7 @@ var update = function (modifier) {
         soundEfx.play();
         soundEfx.addEventListener("ended",function(){
             alert("Game Over!");
+            location.reload();
         });
         gameover=true;
         
