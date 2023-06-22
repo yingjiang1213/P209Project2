@@ -276,6 +276,7 @@ var update = function (modifier) {
             soundEfx.play();
             soundEfx.addEventListener("ended",function(){
                 alert("You Won!");
+                location.reload();
             });
         }
         reset();       // start a new cycle
