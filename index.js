@@ -407,9 +407,11 @@ function gameTimer() {
      countdown--;
   } else {
     soundEfx.src=soundGameOver;
+    clearInterval(timer);
     soundEfx.play();
     soundEfx.addEventListener("ended",function(){
         alert("Game Over!");
+        location.reload();
     });
     gameover=true;
   }
